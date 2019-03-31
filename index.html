@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- TYPOGRAPHY -->
+    <div class="container">
+      <h1 class="page-header">My First Bootstrap Website <small>by Daniel McCarthy</small></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p> <del>Duis aute irure dolor</del> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <u>Excepteur</u> sint occaecat cupidatat non proident, <mark>sunt in culpa qui officia deserunt mollit anim id est laborum</mark>.</p>
+
+        <hr>
+
+        <!-- ALIGNMENT & TRANSFORMATION  -->
+        <p class="text-left">Left aligned text</p>
+        <p class="text-center">Center aligned text</p>
+        <p class="text-right">Right aligned text</p>
+        <p class="text-justify">Justified aligned text</p>
+        <p class="text-nowrap">No wrap text</p>
+
+        <p class="text-lowercase">Lowercase text</p>
+        <p class="text-uppercase">Uppercase text</p>
+        <p class="text-capitalize">First letter of text capitalized</p>
+
+      <!-- QUICK FLOATS -->
+      <div class="float-right">Div floated to the right</div>
+      <div class="float-left">Div floated to the left</div>
+
+      <!-- CLEAR FLOAT -->
+      <div class="clearfix"></div>
+
+      <hr>
+
+      <!-- BLOCKQUOTE -->
+      <blockquote class="blockquote-reverse">
+        <p>Lorem ipsum dolor sit amet</p>
+          <footer>Quote by <cite title="Mr. Bigglesworth">Mr. Bigglesworth</cite></footer>
+      </blockquote>
+
+      <hr>
+
+      <!-- LISTS  -->
+      <ul class="list-unstyled"> <!-- Remove the class to have normal bullet points -->
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+      </ul>
+
+      <ul class="list-inline"> <!-- Remove the class to have normal bullet points -->
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+      </ul>
+
+      <!-- CODE -->
+      <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+      <br>
+      Change directory with <kbd>cd</kbd>
+      <br>
+      To edit setting, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+
+      <hr>
+
+      <!-- CONTEXTUAL COLORS  -->
+
+      <p class="text-primary">Color primary (blue)</p>
+      <p class="text-success">Color success (green)</p>
+      <p class="text-info">Color info (teal)</p>
+      <p class="text-warning">Color warning (yellow)</p>
+      <p class="text-danger">Color danger (red)</p>
+      <p class="text-muted">Color muted (light grey)</p>
+
+      <!-- CONTEXTUAL BACKGROUND COLORS  -->
+
+      <p class="bg-primary">Background primary (blue)</p>
+      <p class="bg-success">Background success (green)</p>
+      <p class="bg-info">Background info (teal)</p>
+      <p class="bg-warning">Background warning (yellow)</p>
+      <p class="bg-danger">Background danger (red)</p>
+      <p class="bg-muted">Background muted (light grey)</p>
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+      <!-- BUTTONS -->
+      <button class="btn btn-default">Button</button>
+      <a href="#" class="btn btn-default" role="button">Link</a>
+      <input type="submit" class="btn btn-default" value="Submit">
+      <br>
+      <hr>
+      <!-- CONTEXTUAL BUTTONS -->
+      <button class="btn btn-default">Button</button>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-info">Info</button>
+      <button class="btn btn-warning">Warning</button>
+      <button class="btn btn-danger">Danger</button>
+      <button class="btn btn-link">Link</button>
+      <br>
+
+      <!-- BUTTON SIZES -->
+      <button class="btn btn-default btn-lg">Default</button>
+      <button class="btn btn-default">Default</button>
+      <button class="btn btn-primary btn-sm">Small Button</button>
+      <button class="btn btn-default btn-xs" disabled="disabled">Disabled Button</button>
+    </div>
+
+    <hr>
+
+    <!-- FORMS -->
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="Add Name">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control" placeholder="Add Email">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea class="form-control" placeholder="Add Message"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Gender</label>
+          <select class="form-control">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <hr>
+
+        <div class="form-group">
+          <label>Upload File</label>
+          <input type="file">
+          <p class="help-block">png and jpg Compatible</p>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Check Me Out
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+
+      <hr>
+
+      <form class="form-inline">
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" placeholder="Password">
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox">Remember Me</label>
+            <button type="submit" name="btn btn-default">Login</button>
+          </form>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <!-- Different classes for below tables are: table, table-striped, table-bordered, table-hover & table-condensed : see Bootstrap.com for more options-->
+      <table class="table table-striped table-bordered table-hover table-condensed">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <th>Sean</th>
+          <th>Carter</th>
+          <th>49</th>
+        </tr>
+        <tr>
+          <th>Carlton</th>
+          <th>Ridenhour</th>
+          <th>58</th>
+        </tr>
+        <tr>
+          <th>Earl</th>
+          <th>Simmons</th>
+          <th>48</th>
+        </tr>
+        <tr>
+          <th>Christopher</th>
+          <th>Wallace</th>
+          <th>47</th>
+        </tr>
+      </table>
+    </div>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
